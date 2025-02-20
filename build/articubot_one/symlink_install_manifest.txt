@@ -1,8 +1,10 @@
 /home/vijai/anr/install/articubot_one/share/articubot_one/config/empty.yaml
 /home/vijai/anr/install/articubot_one/share/articubot_one/config/view_bot.rviz
+/home/vijai/anr/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
 /home/vijai/anr/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
 /home/vijai/anr/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
 /home/vijai/anr/install/articubot_one/share/articubot_one/description/robot_core.xacro
+/home/vijai/anr/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
 /home/vijai/anr/install/articubot_one/share/articubot_one/launch/rsp.launch.py
 /home/vijai/anr/install/articubot_one/share/articubot_one/worlds/empty.world
 /home/vijai/anr/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one

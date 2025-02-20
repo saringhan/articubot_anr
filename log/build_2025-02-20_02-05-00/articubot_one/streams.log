@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/vijai/anr/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijai/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/vijai/anr/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijai/anr/install/articubot_one
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.230s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.235s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.418s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.478s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.479s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.480s] -- Added test 'lint_cmake' to check CMake code style
+[0.480s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.481s] -- Added test 'xmllint' to check XML markup files
+[0.483s] -- Configuring done
+[0.485s] -- Generating done
+[0.486s] -- Build files have been written to: /home/vijai/anr/build/articubot_one
+[0.490s] Invoked command in '/home/vijai/anr/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijai/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/vijai/anr/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijai/anr/install/articubot_one
+[0.492s] Invoking command in '/home/vijai/anr/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijai/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vijai/anr/build/articubot_one -- -j12 -l12
+[0.523s] Invoked command in '/home/vijai/anr/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijai/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vijai/anr/build/articubot_one -- -j12 -l12
+[0.531s] Invoking command in '/home/vijai/anr/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijai/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vijai/anr/build/articubot_one
+[0.536s] -- Install configuration: ""
+[0.537s] -- Execute custom install script
+[0.537s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.544s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.551s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.558s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.565s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.572s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.578s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.586s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.593s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.600s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.607s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.614s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/environment/path.sh
+[0.620s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.628s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/local_setup.bash
+[0.635s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/local_setup.sh
+[0.642s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.649s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.656s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/package.dsv
+[0.663s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.669s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.676s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.683s] -- Symlinking: /home/vijai/anr/install/articubot_one/share/articubot_one/package.xml
+[0.692s] Invoked command in '/home/vijai/anr/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijai/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vijai/anr/build/articubot_one
